@@ -23,6 +23,7 @@
            -o-background-size:32px auto;
               background-size:32px auto;
     }
+    .social a:hover {text-decoration:underline;}
     .blog a {background-image:url(images/blog.png);}
     .twitter a {background-image:url(images/twitter.png);}
     .gplus a {background-image:url(images/googleplus.png);}
