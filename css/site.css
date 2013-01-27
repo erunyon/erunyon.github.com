@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+  
+@media screen,projection {
+  
+  body { padding:2em; color:#777; font-size:100%; font-weight:300; font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  h1, h2, h3, h4, h5, h6 { color:#222; margin:0 0 20px; }
+  p, ul, ol, table, pre, dl { margin:0 0 20px; }
+  h1, h2, h3 { line-height:1.1; }
+  h1 { font-size:28px; }
+  h2 { color:#393939; }
+  h3, h4, h5, h6 { color:#494949; }
+  a { color:#39c; font-weight:400; text-decoration:none; }
+  a small { font-size:11px; color:#777; margin-top:-0.6em; display:block; }
+  img { max-width:100%; }
+  hr { border:0; background:#e5e5e5; height:1px; margin:0 0 20px; }
+
+  .social {margin:2em 0; padding:0; list-style:none;}
+    .social li {margin:0;}
+    .social a {display:block; margin:0 0 1em; padding:0.25em 0 0.25em 44px; font-size:2em; line-height:1em; background-position:left center; background-repeat:no-repeat;
+      -webkit-background-size:32px auto;
+         -moz-background-size:32px auto;
+          -ie-background-size:32px auto;
+           -o-background-size:32px auto;
+              background-size:32px auto;
+    }
+    .blog a {background-image:url(images/blog.png);}
+    .twitter a {background-image:url(images/twitter.png);}
+    .gplus a {background-image:url(images/googleplus.png);}
+    .github a {background-image:url(images/github.png);}
+    .speakerdeck a {background-image:url(images/speakerdeck.png);}
+  
+}
+
+@media only screen and (min-width:40em) {
+  body {padding:4em;}
+  header {width:40%; float:left;}
+  section {width:60%; float:left;}
+  .social {margin:0;}
+}
+
+@media only screen and (min-width:50em) {
+  .social {margin:4em 0;}
+}
+
+@media print {
+  @page { margin:0.5cm; }
+  body {font-family:Georgia, "Times New Roman", Times, serif; color:#333; font-size:13px;}
+  img {page-break-inside:avoid;}
+  aside.related {float:right; max-width:40%; margin:0 0 1em 2em;}
+
+  a:link:after {content:" [link: " attr(href) "] "; font-size:11px; font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; }
+  abbr:after {content:" (" attr(title) ")";}
+
+  a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
+  .social {margin:0; padding:0;}
+  .social li {margin:0;}
+}
