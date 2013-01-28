@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-  
+@-ms-viewport {width:device-width;}
+
 @media screen,projection {
   
   body { padding:2em; color:#777; font-size:100%; font-weight:300; font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
