@@ -32,22 +32,19 @@
     .gplus a {background-image:url(images/googleplus.png);}
     .github a {background-image:url(images/github.png);}
     .speakerdeck a {background-image:url(images/speakerdeck.png);}
+    .adn a {background-image:url(images/adn.png);}
   
-}
-
-/* 530 */
-@media only screen and (min-width:33.125em) {
-  .social li {display:inline-block; *display:inline; *zoom:1; vertical-align:top; width:49%;}
 }
 
 /* 640 */
 @media only screen and (min-width:40em) {
-  body {padding:4em;}
   .social {margin:4em 0;}
+  .social li {display:inline-block; *display:inline; *zoom:1; vertical-align:top; width:49%;}
 }
 
 /* 900 */
 @media only screen and (min-width:56.25em) {
+  body {padding:4em;}
   .social {width:80%;}
 }
 
@@ -55,7 +52,6 @@
 @media only screen and (min-width:75em) {
   .social {width:60%;}
 }
-
 
 @media print {
   @page { margin:0.5cm; }
